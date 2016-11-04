@@ -1,0 +1,5 @@
+---
+- name: ext-auth-srv
+  image: cloudmore/ext-auth-srv:dev
+  args: [ '--restart=always' ]
+  env: { 'VIRTUAL_HOST':'extauth.voipapp.gridheart.com' }

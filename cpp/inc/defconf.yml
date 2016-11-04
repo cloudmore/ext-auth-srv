@@ -1,0 +1,13 @@
+name: ext-auth-srv
+version: 0.0.17
+description: ext-auth-srv service
+main: srv.go
+repository:
+  type: git
+  url: 'https://github.com/cloudmore/gosrv.git'
+author: boris.richard.laanevali@gmail.com
+license: MIT
+port: ':80'
+keyfile: 'bin/auth-srv.rsa'
+level: 10
+cfg: 'bin/app.yml'
